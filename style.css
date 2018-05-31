@@ -2,12 +2,8 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 canvas{
-   /* border: 2px solid red; */
    margin: 0;
-   background-color: #fff;
-   /* width: 500px;
-   height: 500px; */
+   background-color: #333;
 }
