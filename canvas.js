@@ -39,7 +39,7 @@ function Circle(x,y,dx,dy, radius){
 
     this.draw = function(){
         c.beginPath();
-        c.arc(this.x, this.y, this.radius, 0, Math.PI * 22, false);
+        c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
         c.fillStyle = this.color;
         c.fill();
     }
@@ -76,8 +76,8 @@ for(var i = 0; i < 60; i ++){
     radius = 4;
 
     // Dots position
-    x = Math.random() * (innerWidth - radius*2) + radius;
-    y = Math.random() * (innerHeight - radius*2) + radius;
+    x = Math.random() * (innerWidth - radius*0) + radius;
+    y = Math.random() * (innerHeight - radius*20) + radius;
 
     // Dots speed 
     dx = (Math.random() - 0.5) * 0.4;
